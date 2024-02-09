@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate expenses</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expense Tracer</h1>
+      <div id="expenses">
+        <input 
+          type="text"
+          placeholder="Expense Name" 
+          id="expenseName" />
+        <input
+          type="number"
+          placeholder="Amount in USD"
+          id="expenseAmount"/>
+        <button id="calcExpense">Add Expense</button>
+        <ul id="expenseList"></ul>    
+        <p>Total Expense: $
+          <span id="totalExpenses">
+            0.00
+          </span>
+        </p>
+      </div>
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>
