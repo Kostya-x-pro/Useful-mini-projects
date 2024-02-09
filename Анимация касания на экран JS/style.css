@@ -1,0 +1,20 @@
+html {
+  cursor: pointer;
+  background-color: rgb(63, 201, 247);
+}
+
+.parcticle {
+  position: absolute;
+  background-color: rgba(241, 74, 2, 0.82);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation: touch 1s linear;
+}
+
+@keyframes touch {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
