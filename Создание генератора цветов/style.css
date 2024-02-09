@@ -1,0 +1,30 @@
+.wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 200px;
+}
+
+#colorDisplay {
+  width: 208px;
+  height: 208px;
+  margin: 10px auto;
+  border: 2px solid #333;
+}
+
+.color_code {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+#generateColor {
+  display: block;
+  margin: 0 auto;
+  padding: 7px;
+  color: white;
+  background: linear-gradient(to bottom, #1F75FE 0%, #1066EF 100%);
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
