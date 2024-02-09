@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="text" id="input" placeholder="Введите задачу" />
+      <a id="addTask" href="#">Добавить</a>
+      <ul id="list"></ul>
+    </div>
+
+
+    
+    <style>
+      a {
+        display: inline-block;
+        padding: 0 15px;
+        border: 2px solid orange;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      ul {
+        list-style-position: inside;
+      }
+
+      li a{
+        margin: 0 0 10px 10px;
+      }
+
+      .wrapper {
+        margin: 50px auto; width: 1100px; text-align: center
+      }
+    </style>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
