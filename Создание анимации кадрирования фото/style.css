@@ -1,0 +1,21 @@
+input {
+  display: block;
+  margin: 30px auto;
+  transform: scale(2);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  height: 450px;
+  transition: 2s;
+}
+
+input:checked + br + img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  object-position: left-top;
+  transition: width 2s, height 3s;
+}
