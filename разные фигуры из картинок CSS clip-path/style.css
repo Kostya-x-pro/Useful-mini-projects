@@ -1,0 +1,22 @@
+.wrapper {
+  box-sizing: border-box;
+  margin: 200px auto;
+  padding: 5px;
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid rgb(114 176 169);
+  text-align: center;
+}
+
+img {
+  width: 280px;
+  height: 280px;
+  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+/* description:
+  
+CSS-свойство clip-path создаёт ограниченную область, которая определяет какая часть элемента должна быть видимой. Части, которые находятся внутри области, видимы, а части вне области скрыты.
+
+https://bennettfeely.com/clippy/
+*/
