@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculateTips</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Tip Calculator</h2>
+      <input id="billAmount" type="text" placeholder="Bill amount ($)" />
+      <input id="tipPercentage" type="text" placeholder="tipPercentage (%)" />
+      <button id="result">Calculate Tip</button>
+      <div id="tipAmount"></div>
+    </div>
+
+    <style>
+      body {
+        box-sizing: border-box;
+        background: #d3d3d371;
+      }
+      .wrapper {
+        margin: 20px auto;
+        padding: 10px;
+        max-width: 400px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px black;
+        background: white;
+      }
+      h2 {
+        text-align: center;
+      }
+      input, button {
+        display: block;
+        margin: 10px auto;
+        padding: 5px;
+        width: 70%;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+
+      button {
+        color: white;
+        background-color: rgba(30, 30, 236, 0.904);
+      }
+
+      #tipAmount {
+        text-align: center;
+        font-weight: bold;
+        color: green;
+        text-decoration: underline;
+      }
+
+    </style>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
