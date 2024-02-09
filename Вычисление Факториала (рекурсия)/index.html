@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>factorial</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Вычисление факториала</h2>
+    <label for="number">Введите число</label>
+    <input type="text" id="number">
+    <a id="calculate" href="#">Вычислить</a>
+    <div id="result"></div>
+  </div>
+
+  <style>
+    body {
+      background-color: #d3d3d3;
+    }
+
+    .container {
+      margin: 50px auto;
+      width: 1100px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    label {
+      font-size: 20px;
+    }
+
+    #number {
+      margin: 0 20px 20px;
+      padding: 0 10px;
+      font-size: 20px;
+      border-radius: 50px;
+      outline: none;
+      border: 1px solid lightskyblue;
+    }
+
+    #calculate {
+      display: inline-block;
+      padding: 5px 20px;
+      font-size: 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: black;
+      background-color: lightskyblue;
+    }
+
+    #result {
+      font-size: 20px;
+    }
+
+  </style>
+  
+  <script defer src="script.js"></script>
+</body>
+</html>
