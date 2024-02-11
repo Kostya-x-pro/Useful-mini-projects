@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 10px auto;
+  text-shadow: 1px 1px 4px rgba(255, 136, 0, 0.811);
+}
+
+#transcription {
+  margin: 0 0 15px;
+  padding: 5px;
+  width: 100%;
+  min-height: 20px;
+  background-color: #d3d3d36d;
+  border-radius: 10px;
+}
+
+#startRecognitionButton {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(33, 115, 237)
+}
