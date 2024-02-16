@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wraper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px ;
+  max-width: 600px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-shadow: 2px 2px 3px gray;
+}
+
+#qr_text, button {
+  padding: 5px 10px ;
+}
+
+#qr_text {
+  margin-right: 10px;
+  border-color: gray;
+}
+
+button {
+  background-color: rgb(204, 83, 241);
+  color: white;
+}
+
+#qr_code {
+  margin: 0 auto 25px;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black
+}
+
+#qr_code img {
+  margin: 25px auto;
+  display: block;
+}
