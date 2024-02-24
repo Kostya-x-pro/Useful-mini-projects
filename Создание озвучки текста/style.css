@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.text {
+  margin: 0 auto 30px;
+  width: 500px;
+  height: 150px;
+  border: 1px solid rgba(21, 19, 19, 0.984);
+}
+
+.wrapper button {
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 150px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #d3d3d3;
+  background: linear-gradient(45deg, #33ccff 0%, #ff99cc 100%);
+}
