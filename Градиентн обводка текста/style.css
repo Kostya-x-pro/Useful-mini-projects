@@ -1,0 +1,21 @@
+body {
+  background-color: #000119;
+  display: grid;
+  font-family: sans-serif;
+  place-items: content;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-clip: text;
+  background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+  font-size: 70px;
+  -webkit-text-stroke: transparent 6px;
+}
+
+/* description
+  Стилевое свойство text-stroke одновременно устанавливает цвет и толщину контура вокруг букв и символов текста.Но также чтобы создать градиент нужно добавить 2 свойства:  background-clip: text и background-image: linear-gradient.  
+*/
